@@ -369,8 +369,8 @@ wbm <- function(formula, data, id = NULL, wave = NULL,
               detrend = detrend, dt_order = dt_order,
               dt_random = dt_random, balance_correction = balance_correction,
               pf = pf, merMod_call = merMod_call, 
-              interaction.style = interaction.style
-                       lmerfit = fit)
+              interaction.style = interaction.style,
+              lmerfit = fit)
 
   out@call <- the_call
   out@summ <- j
